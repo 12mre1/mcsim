@@ -4,7 +4,7 @@ A python package for Monte Carlo simulation methods.
 [![PyPI version](https://badge.fury.io/py/mcsim.svg)](https://badge.fury.io/py/mcsim)
 
 # Contents
-1. [Installation](# Installation)
+1. [Installation](https://github.com/12mre1/mcsim/blob/master/README.md#installation)
 2. [Examples](# Examples)
 3. [Details](# Details)
 4. [Testing](# Testing)
