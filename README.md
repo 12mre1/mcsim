@@ -113,6 +113,12 @@ prefixed with `pdf_` (for example `pdf_normal`):
 
 ## Testing
 
+I do not yet have full test coverage, but all unit tests pass. Tests are written using the `unittest` module. You can write your own
+object-based tests (see `tests_pdfs.py`), and check that they pass just by executing the file:
+```{console}
+python test_pdfs.py
+```
+
 ## Technical 
 
 - The `MCIntegrator` class approximates integration based on the fact that definite integrals can be rewritten:
