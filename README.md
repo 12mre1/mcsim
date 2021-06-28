@@ -11,7 +11,7 @@ A python package for Monte Carlo simulation methods.
 5. [Technical](##Technical)
 6. [Future Work](##Future Work)
 
-## Installation
+##Installation
 
 `pysim` is available from the `pypi` repository, and you can install it directly from the command line:
 ```{console}
@@ -32,7 +32,7 @@ pip install mcsim
 ```
 Then just delete the environment when you're done.
 
-## Examples
+##Examples
 The `MCIntegrator` class, along with the pdf functions can be used to compute standard probabilities or moments:
 ```{python}
 import mcsim
@@ -85,7 +85,7 @@ MC Sample size: 100000, Number of tails: 1
 We get a very close approximation.
 
 
-## Details
+##Details
 
 `mcsim` contains several objects designed to perform Monte Carlo simulation methods. 
 
@@ -121,7 +121,7 @@ prefixed with `pdf_` (for example `pdf_normal`):
 - Laplace (`pdf_laplace`)
 - Pareto (`pdf_pareto`)
 
-## Testing
+##Testing
 
 I do not yet have full test coverage, but all unit tests pass. Tests are written using the `unittest` module. You can write your own
 object-based tests (see `tests_pdfs.py`), and check that they pass just by executing the file:
@@ -129,7 +129,7 @@ object-based tests (see `tests_pdfs.py`), and check that they pass just by execu
 python test_pdfs.py
 ```
 
-## Technical 
+##Technical 
 
 - The `MCIntegrator` class approximates integration based on the fact that definite integrals can be rewritten:
 
@@ -150,7 +150,7 @@ One pitfall is that the redefined expectation may have infinite standard error, 
 I use have very heavy tails: Cauchy distribution for two-tailed and Pareto distribution for one-tailed. As with MC Integration, the sample estimate converges to the true
 expectation by Law of Large Numbers.
 
-## Future Work
+##Future Work
 
 - The `MCIntegrator` is currently based on sampling from a Uniform Density. There is a more general version I'm 
 planning to implement. The uniform version will likely become a subclass of this.
