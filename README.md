@@ -11,6 +11,8 @@ Or for some operating systems:
 ```{console}
 python3 -m pip install mcsim
 ```
+You can also download it manually: https://pypi.org/project/mcsim/
+
 If you'd like to test it in a virtual environment without altering your main python installation,
 assuming you have `venv` installed:
 ```{python}
