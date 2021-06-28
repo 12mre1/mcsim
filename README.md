@@ -1,6 +1,8 @@
 # mcsim
 A python package for Monte Carlo simulation methods.
 
+[![PyPI version](https://badge.fury.io/py/mcsim.svg)](https://badge.fury.io/py/mcsim)
+
 ## Installation
 
 `pysim` is available from the `pypi` repository, and you can install it directly from the command line:
